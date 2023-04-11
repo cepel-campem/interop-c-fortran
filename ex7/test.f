@@ -6,7 +6,7 @@ program test
          use, intrinsic :: iso_c_binding
          implicit none
       endfunction funka
-      
+
       integer(c_int) function funkb(plep) bind(c, name='funkb')
          use, intrinsic :: iso_c_binding
          implicit none
